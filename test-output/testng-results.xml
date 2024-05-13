@@ -1,64 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-13T10:03:28 CEST" name="Default suite" finished-at="2024-05-13T10:03:54 CEST" duration-ms="25267">
+  <suite started-at="2024-05-13T10:17:19 CEST" name="Default suite" finished-at="2024-05-13T10:17:26 CEST" duration-ms="7312">
     <groups>
     </groups>
-    <test started-at="2024-05-13T10:03:28 CEST" name="Default test" finished-at="2024-05-13T10:03:54 CEST" duration-ms="25267">
+    <test started-at="2024-05-13T10:17:19 CEST" name="Default test" finished-at="2024-05-13T10:17:26 CEST" duration-ms="7312">
       <class name="tests.TestClass">
-        <test-method signature="Test_01_Get_Status()[pri:1, instance:tests.TestClass@634d56eb]" started-at="2024-05-13T10:03:28 CEST" name="Test_01_Get_Status" finished-at="2024-05-13T10:03:32 CEST" duration-ms="3964" status="PASS">
+        <test-method signature="Test_14_delete_Order()[pri:14, instance:tests.TestClass@25af1dbf]" started-at="2024-05-13T10:17:19 CEST" name="Test_14_delete_Order" finished-at="2024-05-13T10:17:26 CEST" duration-ms="7219" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test_01_Get_Status -->
-        <test-method signature="Test_02_Get_List_of_Books()[pri:2, instance:tests.TestClass@634d56eb]" started-at="2024-05-13T10:03:32 CEST" name="Test_02_Get_List_of_Books" finished-at="2024-05-13T10:03:33 CEST" duration-ms="1041" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test_02_Get_List_of_Books -->
-        <test-method signature="Test_03_Get_Book_with_ID()[pri:3, instance:tests.TestClass@634d56eb]" started-at="2024-05-13T10:03:33 CEST" name="Test_03_Get_Book_with_ID" finished-at="2024-05-13T10:03:34 CEST" duration-ms="741" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test_03_Get_Book_with_ID -->
-        <test-method signature="Test_04_Get_Book_with_Invalid_ID()[pri:4, instance:tests.TestClass@634d56eb]" started-at="2024-05-13T10:03:34 CEST" name="Test_04_Get_Book_with_Invalid_ID" finished-at="2024-05-13T10:03:35 CEST" duration-ms="754" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test_04_Get_Book_with_Invalid_ID -->
-        <test-method signature="Test_05_Get_books_By_Type()[pri:5, instance:tests.TestClass@634d56eb]" started-at="2024-05-13T10:03:35 CEST" name="Test_05_Get_books_By_Type" finished-at="2024-05-13T10:03:36 CEST" duration-ms="917" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test_05_Get_books_By_Type -->
-        <test-method signature="Test_06_Get_limmited_list()[pri:6, instance:tests.TestClass@634d56eb]" started-at="2024-05-13T10:03:36 CEST" name="Test_06_Get_limmited_list" finished-at="2024-05-13T10:03:37 CEST" duration-ms="784" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test_06_Get_limmited_list -->
-        <test-method signature="Test_07_Authentication()[pri:7, instance:tests.TestClass@634d56eb]" started-at="2024-05-13T10:03:37 CEST" name="Test_07_Authentication" finished-at="2024-05-13T10:03:38 CEST" duration-ms="1460" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test_07_Authentication -->
-        <test-method signature="Test_08_Authentication_Failed_WithSameUser()[pri:8, instance:tests.TestClass@634d56eb]" started-at="2024-05-13T10:03:38 CEST" name="Test_08_Authentication_Failed_WithSameUser" finished-at="2024-05-13T10:03:39 CEST" duration-ms="1478" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test_08_Authentication_Failed_WithSameUser -->
-        <test-method signature="Test_09_Order_A_Book()[pri:9, instance:tests.TestClass@634d56eb]" started-at="2024-05-13T10:03:39 CEST" name="Test_09_Order_A_Book" finished-at="2024-05-13T10:03:42 CEST" duration-ms="2520" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test_09_Order_A_Book -->
-        <test-method signature="Test_10_Order_A_NonAvailable_Book()[pri:10, instance:tests.TestClass@634d56eb]" started-at="2024-05-13T10:03:42 CEST" name="Test_10_Order_A_NonAvailable_Book" finished-at="2024-05-13T10:03:44 CEST" duration-ms="2241" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test_10_Order_A_NonAvailable_Book -->
-        <test-method signature="Test_11_Order_And_GettingOrder()[pri:11, instance:tests.TestClass@634d56eb]" started-at="2024-05-13T10:03:44 CEST" name="Test_11_Order_And_GettingOrder" finished-at="2024-05-13T10:03:47 CEST" duration-ms="2321" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test_11_Order_And_GettingOrder -->
-        <test-method signature="Test_12_Update_Order()[pri:12, instance:tests.TestClass@634d56eb]" started-at="2024-05-13T10:03:47 CEST" name="Test_12_Update_Order" finished-at="2024-05-13T10:03:50 CEST" duration-ms="3275" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test_12_Update_Order -->
-        <test-method signature="Test_13_update_And_GetOrder_After()[pri:13, instance:tests.TestClass@634d56eb]" started-at="2024-05-13T10:03:50 CEST" name="Test_13_update_And_GetOrder_After" finished-at="2024-05-13T10:03:54 CEST" duration-ms="3635" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test_13_update_And_GetOrder_After -->
+        </test-method> <!-- Test_14_delete_Order -->
       </class> <!-- tests.TestClass -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

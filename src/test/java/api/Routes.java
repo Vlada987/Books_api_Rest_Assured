@@ -11,6 +11,6 @@ public static String orderBook=url+"/orders/";
 public static String getOrders=url+"/orders";
 public static String updateOrder=url+"/orders/{id}";
 public static String getOrder=url+"/orders/{id}";
-
+public static String delete=url+"/orders/{id}";
 
 }

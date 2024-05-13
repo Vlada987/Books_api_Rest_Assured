@@ -94,10 +94,13 @@ Response resp= given().pathParam("id",orderID)
 return resp;
 }
 
-
-
-
-
+public static Response deleteOrder(String orderID) {
+	
+Response resp= given().pathParam("id",orderID)
+.header("Authorization", "Bearer " + token)
+.delete(Routes.delete);
+return resp;
+}
 
 
 
